@@ -1,6 +1,6 @@
 FROM shimmi/php:7.1-fpm
 
-MAINTAINER Jiří Šimeček <jirka@simecek.org>
+LABEL maintainer="Jiří Šimeček <jirka@simecek.org>"
 
 RUN pecl install xdebug \
     && apt-get install -y libxslt-dev \
