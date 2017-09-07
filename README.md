@@ -1,7 +1,7 @@
 # PHP-FPM with Xdebug and other DEV tools
 ## Supported tags and respective `Dockerfile` links
-* `7.1-fpm-phpunit6`, `7-fpm-phpunit6`, `latest-phpunit6` [(7.1/fpm-phpunit6/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.1/fpm-phpunit6/Dockerfile)
 * `7.1-fpm`, `7-fpm`, `latest` [(7.1/fpm/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.1/fpm/Dockerfile)
+* `7.1-fpm-phpunit5` [(7.1/fpm-phpunit5/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.1/fpm-phpunit5/Dockerfile)
 * `7.1-zts` [(7.1/zts/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.1/zts/Dockerfile)
 * `5.6-fpm`, `5-fpm` [(5.6/fpm/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/5.6/fpm/Dockerfile)
 
@@ -23,7 +23,7 @@ ready-to-use [Jenkins with Blue Ocean and support for building jobs in Docker](h
 * [PHP Depend](https://pdepend.org/)
 * [PHP Mess Detector](https://phpmd.org/)
 * [Behat](http://behat.org/)
-* [PHPUnit](https://phpunit.de/)
+* [PHPUnit](https://phpunit.de/) (v6 for PHP 7; v5 for PHP 5.6 and `7.1-fpm-phpunit5`)
 * [PHPLOC](https://github.com/sebastianbergmann/phploc)
 * [phpcpd](https://github.com/sebastianbergmann/phpcpd)
 * [phpDox](http://phpdox.de/)
