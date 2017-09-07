@@ -11,7 +11,7 @@ RUN composer global require \
     "pdepend/pdepend=*" \
     "phpmd/phpmd=@stable" \
     'behat/behat=*' \
-    "phpunit/phpunit=5.*" \
+    "phpunit/phpunit=*" \
     "phploc/phploc=*" \
     "sebastian/phpcpd=*" \
     "theseer/phpdox=*"
