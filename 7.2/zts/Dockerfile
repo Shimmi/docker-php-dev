@@ -1,9 +1,8 @@
-FROM shimmi/php:5.6-fpm
+FROM shimmi/php:7.2-zts
 
 LABEL maintainer="Jiří Šimeček <jirka@simecek.org>"
 
-RUN pecl install xdebug-2.5.5 \
-    && apt-get update \
+RUN pecl install xdebug \
     && apt-get install -y libxslt-dev \
     && docker-php-ext-install xsl
 
@@ -12,7 +11,7 @@ RUN composer global require \
     "pdepend/pdepend=*" \
     "phpmd/phpmd=@stable" \
     'behat/behat=*' \
-    "phpunit/phpunit=5.*" \
+    "phpunit/phpunit=*" \
     "phploc/phploc=*" \
     "sebastian/phpcpd=*" \
     "theseer/phpdox=*"

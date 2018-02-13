@@ -1,6 +1,9 @@
-# PHP-FPM with Xdebug and other DEV tools
+# PHP fpm & zts with Xdebug and other DEV tools
 ## Supported tags and respective `Dockerfile` links
-* `7.1-fpm`, `7-fpm`, `latest` [(7.1/fpm/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.1/fpm/Dockerfile)
+* `7.2-fpm`, `7-fpm`, `latest` [(7.2/fpm/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.2/fpm/Dockerfile)
+* `7.2-zts` [(7.2/zts/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.2/zts/Dockerfile)
+* `7.2-zts` [(7.2/zts/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.2/zts/Dockerfile)
+* `7.1-fpm` [(7.1/fpm/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.1/fpm/Dockerfile)
 * `7.1-fpm-phpunit5` [(7.1/fpm-phpunit5/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.1/fpm-phpunit5/Dockerfile)
 * `7.1-zts` [(7.1/zts/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/7.1/zts/Dockerfile)
 * `5.6-fpm`, `5-fpm` [(5.6/fpm/Dockerfile)](https://github.com/Shimmi/docker-php-dev/blob/master/5.6/fpm/Dockerfile)
